@@ -113,5 +113,14 @@
               left: 0;  
             }
        } 
+       .toggleNavbar{
+        .icons{
+            font-size: 25px;
+            color: var(--whiteColor);
+            &:hover{
+                color: var(--PrimaryColor);
+            }
+        }
+       }
     }
 }
