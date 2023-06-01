@@ -1,1 +1,153 @@
-/*# sourceMappingURL=popular.css.map */
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+}
+
+.popular {
+  padding-top: 14rem;
+}
+.popular .secContainer .secHeader {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.popular .secContainer .secHeader .textDiv .secTitle {
+  color: var(--blackColor);
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.popular .secContainer .secHeader .textDiv p {
+  font-size: 13px;
+  color: var(--textColor);
+  font-weight: 500px;
+}
+.popular .secContainer .secHeader .iconDiv {
+  gap: 0.5rem;
+}
+.popular .secContainer .secHeader .iconDiv .icons {
+  padding: 0.5rem;
+  background: var(--greyText);
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+.popular .secContainer .secHeader .iconDiv .icons:hover {
+  background: var(--blackColor);
+  color: var(--whiteColor);
+}
+.popular .secContainer .secHeader .iconDiv .leftIcon {
+  background: var(--blackColor);
+  color: var(--whiteColor);
+}
+.popular .secContainer .secHeader .iconDiv .leftIcon:hover {
+  background: var(--greyText);
+  color: var(--blackColor);
+}
+.popular .mainContent {
+  padding: 2rem 0;
+  gap: 1rem;
+}
+.popular .mainContent .singleDestination {
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+}
+.popular .mainContent .singleDestination .destImage {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.popular .mainContent .singleDestination .destImage img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.popular .mainContent .singleDestination .destImage .overlayInfo {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.759));
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+.popular .mainContent .singleDestination .destImage .overlayInfo h3 {
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+.popular .mainContent .singleDestination .destImage .overlayInfo p {
+  color: var(--whiteColor);
+  opacity: 0.7;
+  font-size: 13px;
+}
+.popular .mainContent .singleDestination .destImage .overlayInfo .icons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 0.5rem;
+  background: var(--PrimaryColor);
+  font-size: 2.5rem;
+  border-radius: 50%;
+  color: var(--whiteColor);
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+.popular .mainContent .singleDestination .destImage .overlayInfo .icons:hover {
+  background: var(--blackColor);
+  border: 1px solid var(--PrimaryColor);
+  color: var(--PrimaryColor);
+}
+.popular .mainContent .singleDestination .destFooter {
+  padding: 1rem;
+}
+.popular .mainContent .singleDestination .destFooter .number {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--blackColor);
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+}
+.popular .mainContent .singleDestination .destFooter .number::after {
+  content: "";
+  position: absolute;
+  background: var(--PrimaryColor);
+  top: 45%;
+  right: -150%;
+  height: 5px;
+  width: 45px;
+  border-radius: 1rem;
+}
+.popular .mainContent .singleDestination .destFooter .descText {
+  justify-content: space-between;
+}
+.popular .mainContent .singleDestination .destFooter .descText h6 {
+  color: var(--blackColor);
+  font-size: 15px;
+}
+.popular .mainContent .singleDestination .destFooter .descText .flex {
+  font-size: 16px;
+  font-weight: 600;
+  align-items: flex-start;
+  transform: translateY(5px);
+}
+.popular .mainContent .singleDestination .destFooter .descText .flex .icons {
+  color: var(--PrimaryColor);
+}
+.popular .mainContent .singleDestination:hover .overlayInfo {
+  overflow: visible;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}/*# sourceMappingURL=popular.css.map */
