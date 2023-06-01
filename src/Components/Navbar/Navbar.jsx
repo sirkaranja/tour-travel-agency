@@ -17,6 +17,9 @@ const closeNav =()=>{
   setActive('navBar')
 }
 
+//code to add background color to the header
+// const [transparent, setTransparent] = useState('header')
+
   return (
    <section className='navBarSection'>
     <div className="header">
