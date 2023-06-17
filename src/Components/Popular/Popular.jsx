@@ -42,6 +42,25 @@ const Data = [
     destTitle:'Mount Kenya',
     location:'kenya',
     grade:'Moderate',
+  },
+  {
+    id:4,
+    imgSrc:img4,
+    destTitle:'Mount Kenya',
+    location:'kenya',
+    grade:'Moderate',
+  },{
+    id:4,
+    imgSrc:img4,
+    destTitle:'Mount Kenya',
+    location:'kenya',
+    grade:'Moderate',
+  },{
+    id:4,
+    imgSrc:img4,
+    destTitle:'Mount Kenya',
+    location:'kenya',
+    grade:'Moderate',
   }
 
 ]
