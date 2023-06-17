@@ -5,8 +5,13 @@ import {MdBathtub} from 'react-icons/md'
 import {FaWifi} from 'react-icons/fa'
 import {MdAirportShuttle} from 'react-icons/md'
 import {MdLocationOn} from 'react-icons/md'
+import {BsArrowRightShort} from 'react-icons/bs'
 
-export const Offers = () => {
+
+//import images 
+import img from'../../Assets/airbnb.jpg'
+
+ const Offers = () => {
   return (
     <section className='offer container section'>
       <div className="secContainer">
@@ -23,7 +28,7 @@ export const Offers = () => {
         <div className="minContainer grid">
           <div className="singleOffer">
             <div className="destImage">
-              <img src="img" alt="Image Name" />
+              <img src={img} alt="Image Name" />
 
               <span className='discount'>
                 30% off
@@ -62,8 +67,10 @@ export const Offers = () => {
 
               </div>
               <button className='btn flex'> 
-              View Details</button>
-              
+              View Details
+              < BsArrowRightShort className='icons' />
+              </button>
+             
               
 
 
