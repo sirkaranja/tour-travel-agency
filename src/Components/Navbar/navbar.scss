@@ -33,6 +33,7 @@
                 .icons{
                     color: var(--PrimaryColor);
                     font-size: 25px;
+                    margin-right: 10px;
                 }
             }
         }
@@ -124,6 +125,12 @@
        }
     }
     
+    .activeHeader{
+       background: var(--greyText);
+       box-shadow: 0 2px 8px 2px rgb(178,178,178,0.45);
+
+
+    }
 
     
 }
