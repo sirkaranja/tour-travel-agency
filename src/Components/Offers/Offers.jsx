@@ -65,7 +65,7 @@ const Offer= [
     id:7,
     imgSrc:img7,
     destTitle:'Museum of kigali',
-    location:'keRwandanya',
+    location:'Rwanda',
     price:'Ksh 120,000'
   }
 ]
@@ -92,7 +92,7 @@ const Offer= [
             return(
               <div className="singleOffer">
               <div className="destImage">
-                <img src={imgSrc} alt="Image Name" />
+                <img src={imgSrc} alt={destTitle} />
   
                 <span className='discount'>
                   30% off
@@ -101,7 +101,7 @@ const Offer= [
   
               <div className="offerBody">
                 <div className="price flex">
-                  <h4>Ksh 7000</h4>
+                  <h4>{price}</h4>
                   <span className='status'>
                     For rent
                   </span>
@@ -127,7 +127,7 @@ const Offer= [
                 </div>
                 <div className="location flex">
                   < MdLocationOn className='icons' />
-                  <small>450 Vine #320, London</small>
+                  <small>450 street adrress, {location}</small>
   
                 </div>
                 <button className='btn flex'> 
